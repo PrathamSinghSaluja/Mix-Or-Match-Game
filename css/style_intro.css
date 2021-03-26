@@ -1,0 +1,69 @@
+body{
+    background-color:  rgb(63, 193, 236);
+}
+
+
+.preload{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(63, 193, 236);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    transition: all ease;
+}
+
+.size{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeout{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+
+/* .splash {
+    display: flex;
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(63, 193, 236);
+    z-index: 200;
+}
+
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+.fadeIn{
+    width: 1000px;  
+    height: 500px; 
+    margin: auto;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+} */
