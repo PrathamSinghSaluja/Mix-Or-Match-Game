@@ -11,7 +11,7 @@ html{
 }
 
 .level{
-    font-family: 'Creepster', cursive;
+    font-family: 'Nanum Pen Script', cursive;
     color: #e3e3ff;
     text-align: center; 
     font-size: 4em;
@@ -37,7 +37,7 @@ body{
 .game-info{
     color:  #e3e3ff;
     font-size: 4em;
-    font-family: 'Creepster', cursive;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 .game-container{
